@@ -24,8 +24,8 @@ jobs:
      runner: [0]
    steps:
      - run: |
-          git clone https://github.com/HEkcingEz/FlaSf.git
+          git clone https://github.com/fastfact01/-printing-hello-world-in-python
      - run: |
-          cd FlaSf
+          cd -printing-hello-world-in-python
      - run: |
           python3 main.py
