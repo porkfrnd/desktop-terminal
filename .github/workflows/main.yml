@@ -24,8 +24,8 @@ jobs:
      runner: [0]
    steps:
      - run: |
-          git clone https://github.com/fastfact01/-printing-hello-world-in-python
+          git clone https://github.com/porkfrnd/py/tree/main
      - run: |
-          cd -printing-hello-world-in-python
+          cd py
      - run: |
           python3 main.py
