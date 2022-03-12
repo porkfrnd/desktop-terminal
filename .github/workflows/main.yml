@@ -24,7 +24,7 @@ jobs:
      runner: [0]
    steps:
      - run: |
-          git clone https://github.com/porkfrnd/py/tree/main
+          git clone https://github.com/porkfrnd/py
      - run: |
           cd py
      - run: |
